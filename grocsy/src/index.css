@@ -1,0 +1,25 @@
+:root {
+  font-family: 'Poppins', sans-serif;
+  text-transform: capitalize;
+  line-height: 1.5;
+  letter-spacing: 1.6;
+  font-weight: 400;
+
+  color-scheme: light;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0px;
+  /* padding: 0; */
+}
+
+button {
+  letter-spacing: 1.6px;
+}

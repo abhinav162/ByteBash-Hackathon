@@ -1,0 +1,85 @@
+.address-container {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    /* width: 90%; */
+    
+    .address-table {
+        margin: 0;
+        padding: 0;
+        width: 80%;
+        border-collapse: collapse;
+        border-spacing: 0;
+        border: 1px solid #ddd;
+        
+        th, td {
+            text-align: left;
+            padding: 16px 20px 16px 10px;
+            
+            button {
+                margin: 0 10px 0 0;
+            }
+        }
+        
+        .address-table-header {
+            background-color: #f2f2f2;
+        }
+    }
+    
+    .add-address-form {
+        z-index: 1;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        border: none;
+        border-radius: 20px;
+        padding: 20px 50px;
+        color: black;
+        
+        form {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            
+            div:first-child {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                gap: 20px;
+            }
+            
+            div:not(first-child) {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                gap: 20px;
+                width: 100%;
+
+                input {
+                    width: 300px;
+                    height: 30px;
+                    padding: 0 10px;
+                    border: 1px solid #ddd;
+                    border-radius: 5px;
+                }
+            }
+
+            .add-address-button {
+                color: black;
+            }
+
+            .add-address-button:hover {
+                color: white;
+            }
+        }
+    }
+}
